@@ -1,0 +1,47 @@
+styles.css
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2; /* Adicionei uma cor de fundo suave */
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto; /* Adicionei um pouco de margem em todos os lados */
+    padding: 20px;
+    background-color: #fff; /* Adicionei uma cor de fundo branca */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra suave */
+    border-radius: 8px; /* Adicionei uma borda arredondada */
+  }
+  
+  button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #4caf50; /* Cor de fundo verde */
+    color: #fff; /* Cor do texto branco */
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Cor de fundo verde mais escura ao passar o mouse */
+  }
+  
+  .pokemon-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px; /* Adicionei uma borda arredondada */
+    background-color: #fff; /* Adicionei uma cor de fundo branca */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra suave */
+  }
+  
+  #pokedexSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }

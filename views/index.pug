@@ -1,0 +1,20 @@
+// index.pug
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title= title
+    link(rel="stylesheet", href="styles.css")
+  body
+    .container
+      h1= title
+      button(onclick="capturarPokemon()") Capturar Pokémon
+      button(onclick="batalharPokemon()") Batalhar
+      button(onclick="exibirPokedex()") Ver Pokédex
+      #pokemonImage
+        //- Imagem do Pokémon vai aqui
+      #pokedexSection
+        //- Seção da Pokédex vai aqui
+    script(src="main.js")
